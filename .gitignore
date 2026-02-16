@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model weights (large files)
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+models/fine_tuned/
+
+# Vector DB data
+korean_medical_ai/data/embeddings/
+*.chroma/
+
+# Logs
+korean_medical_ai/logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
