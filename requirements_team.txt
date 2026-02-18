@@ -1,0 +1,3 @@
+# Multi-LLM team dependencies
+google-generativeai>=0.7.0   # Gemini agent
+openai>=1.30.0               # GPT agent
